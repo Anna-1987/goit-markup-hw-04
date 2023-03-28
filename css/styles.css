@@ -164,20 +164,19 @@ body {
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden;
-   
+    overflow: hidden; 
 } 
 .skills-item{
     flex-basis: calc((100%-3*24)/4);
 }
 .skills-item::before{
-    content: "";
     display: block;
+    content: "";
     height: 112;
-    background-color: var(--cloud-color);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    background-color: var(--cloud-color);
 }
 .list-skills-h{
     font-weight: 500;
