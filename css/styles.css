@@ -114,7 +114,8 @@ body {
     padding: 96px 0px 120px 0px;
 }
 .caption {
-    min-width: 1600px;
+    max-width: 1600px;
+    margin: 0 auto;
     background-color:var(--navyblue-color);
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
     rgba(46, 47, 66, 0.7)), 
@@ -236,6 +237,11 @@ body {
     border-right: 1px solid var(--cornflower-color);
     padding: 32px 16px 32px 16px;
 }
+.card-portfolio:hover{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 /*--------------------------SECTION-3----------------------*/
 .list-do-h{
@@ -295,6 +301,9 @@ body {
     background-color: var(--white-color);
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 
 }
 .icon-logo{
@@ -330,12 +339,13 @@ body {
 }
 .icon-header-text{
     display: flex;
-    justify-content: center;
+    justify-content:  flex-start;
     font-size: 16px;
     line-height: 24px;
     color: var(--white-color);
     margin-bottom: 16px;
 }
+    
 .list{
     list-style:none;
 }
@@ -380,10 +390,16 @@ body {
 .titls-button:hover{
     color: var(--white-color);
     background-color: var(--click-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+     0px 2px 1px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .titls-button:focus{
     color: var(--white-color);
     background-color: var(--click-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 2px 1px rgba(0, 0, 0, 0.08),
+     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button-line{
     display: flex;
