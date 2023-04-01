@@ -188,21 +188,15 @@ body {
 
 } */
 .icon-skills{
-    width: 264px;
     height: 112px;
     background-color: var(--cloud-color);
-    border: 1px solid var(--cloud-color);
     border-radius: 4px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 8px;
 }
-/* .antenna{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
+
 .list-skills-h{
     font-weight: 500;
     font-size: 20px;
@@ -218,6 +212,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--accent-color); 
+    margin-bottom: 8px;
    
 }
 .list-name {
@@ -324,11 +319,11 @@ body {
    
 }
 .icon-logo-link{
+    display: flex;
     width: 100%;
     height: 100%;
     border: 1px solid #8E8F99;
     border-radius: 4px;
-    display: flex;
     align-items: center;
     justify-content: center;
     fill: #8E8F99;
